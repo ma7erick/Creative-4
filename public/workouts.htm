@@ -1,0 +1,135 @@
+
+<html>
+<head>
+  <title>Provo All-Star's Guide</title>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script>
+    <!-- Angular Material Library -->
+  <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.10/angular-ui-router.js"></script>
+
+
+
+  
+
+</head>
+<body>
+
+<div id="opener">
+  <div id="overlay"></div>
+  <h1>LIFTS</h1>
+  <h3>The surest way to becoming a Provo All-Star</h3>
+  <img src="https://tracksidefitness.files.wordpress.com/2011/06/dsc02059.jpg" </img>
+  <button id="startButton">Start</button>
+  </div>
+
+<!-- <a href="getplan.html">Get My Plan</a> -->
+  
+  <h1 id="title"> LIFTS </h1>
+  <form>
+    <input class="style-1" type="text" id="cityfield" value="" placeholder="enter a workout or muscle"><br>
+    <span id="txtHint"></span>
+  </form>
+
+  
+  
+
+  <script>
+
+  $('#startButton').click(function() {
+    //$('#welcomeDiv').hide(1500);
+     $('#overlay').animate({
+      top:'-200%'
+    },1700);
+        $('#opener').animate({
+      top:'-200%'
+    },1700);
+});
+
+    $( "#cityfield" ).keyup(function() {
+  var url = "http://ec2-52-42-56-110.us-west-2.compute.amazonaws.com:3000/getcity?q="+$("#cityfield").val();//use ECN (my url):3000/
+  $.getJSON(url,function(data) {
+    var everything;
+    everything = "<ul>";
+    
+    $.each(data, function(i,item) {
+      everything += "<li><div class=\"workout\">";
+      everything += "<h2> "+data[i].name+"</h2>";
+      everything += " <img class=\"pic\" src='"+ data[i].image+ "'>";
+     
+      everything += "<h3>Muscle: " + data[i].muscle + "</h3>";
+      everything += "<h4>Other Muscles: " + data[i].otherMuscles + "</h4>";      
+
+      // everything += "Description: "+data[i].description +"</li>";
+      everything += "</li></div>";
+
+
+    });
+    everything += "</ul>";
+    $("#txtHint").html(everything);
+  });
+});
+
+angular.module('Lifts', ['ui.router'])
+
+// .controller('PlanCtrl', [
+//   '$scope',
+//   '$stateParams',
+  
+//   function($scope, $stateParams){
+    
+// }])
+
+// .controller('MainCtrl', [
+//   '$scope',
+//   '$stateParams',
+  
+//   function($scope, $stateParams){
+    
+// }])
+// .config([
+//   '$stateProvider',
+//   '$urlRouterProvider',
+//   function($stateProvider, $urlRouterProvider) {
+//     $stateProvider
+//     .state('home', {
+//       url: '/home',
+//       templateUrl: '/home.html',
+//       controller: 'MainCtrl'
+//     })
+//       .state('plan', {
+//         url: '/plan/{id}',
+//         templateUrl: '/plan.html',
+//         controller: 'PlanCtrl'
+//       });
+//     $urlRouterProvider.otherwise('home');
+// }]);
+</script>
+
+<!-- <script type="text/ng-template" id="home/.html">
+
+
+<h1 id="title"> LIFTS </h1>
+  <form>
+    <input class="style-1" type="text" id="cityfield" value="" placeholder="enter a workout or muscle"><br>
+    <span id="txtHint"></span>
+  </form>
+
+</script>
+
+<script type="text/ng-template" id="plan/.html">
+  
+  <input class="style-1" type="text" id="cityfield" value="" placeholder="bulking, cutting, maintaining?"><br>
+  <input class="style-1" type="text" id="cityfield" value="" placeholder="day split"><br>
+  
+    
+
+  </script> -->
+
+</body>
+<link rel="stylesheet" type="text/css" href="workoutsStyle.css" />
+</html>
+

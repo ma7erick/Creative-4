@@ -1,0 +1,113 @@
+
+<html>
+<head>
+  <title>Provo All-Star's Guide</title>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script>
+    <!-- Angular Material Library -->
+  <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.10/angular-ui-router.js"></script>
+
+
+
+  
+
+</head>
+<body>
+
+
+
+<style>
+  
+  .select-editable { margin:auto; margin-top: 20px; position:relative; background-color:white; border:solid grey 1px;  width:120px; height:18px; }
+  .select-editable select { margin:auto;  position:absolute; top:0px; left:0px; font-size:14px; border:none; width:120px; margin:0; }
+  .select-editable input {margin:auto; position:absolute; top:0px; left:0px; width:100px; padding:1px; font-size:12px; border:none; }
+  .select-editable select:focus, .select-editable input:focus { outline:none; }
+
+#plantitle{
+  margin: auto;
+   text-align:center;
+}
+</style>
+
+<h1 id="plantitle">
+Get My Plan
+</h1>
+
+<div class="select-editable">
+  <select onchange="this.nextElementSibling.value=this.value">
+    <option value=""></option>
+    <option value="Bulk">Bulk</option>
+    <option value="Cut">Cut</option>
+    <option value="Maintain">Maintain</option>
+  </select>
+  <input id="typeInput" type="text" name="format" value=""/>
+</div>
+<button id="submitButton">
+Submit
+</button>
+<span id="planSpan">Plan</span>
+
+
+<script>
+
+
+ $('#submitButton').click(function() {
+console.log("here!");
+  if ($('#typeInput').val() === 'Maintain') {
+   
+    var url = "http://ec2-52-42-56-110.us-west-2.compute.amazonaws.com:3000/getcity?q=Chest";
+    var plan = "<ul><li>Day 1<ul><li>Chest:<ul>";
+  $.getJSON(url,function(data) {
+    $.each(data, function(i,item) {
+      plan += "<li>" + data[i].name+ "  Sets: 3   Reps: 8</li>"
+    });
+    plan += "</ul>";
+    
+  });
+
+var url = "http://ec2-52-42-56-110.us-west-2.compute.amazonaws.com:3000/getcity?q=Triceps";
+    var plan = "<li>Triceps:<ul>";
+  $.getJSON(url,function(data) {
+    $.each(data, function(i,item) {
+      plan += "<li>" + data[i].name+ "  Sets: 3   Reps: 8</li>"
+    });
+    plan += "</ul></ul>";
+    
+  });
+
+  var url = "http://ec2-52-42-56-110.us-west-2.compute.amazonaws.com:3000/getcity?q=Back";
+    var plan = "<ul><li>Day 2<ul><li>Back:<ul>";
+  $.getJSON(url,function(data) {
+    $.each(data, function(i,item) {
+      plan += "<li>" + data[i].name+ "  Sets: 3   Reps: 8</li>"
+    });
+    plan += "</ul>";
+    
+  });
+
+  var url = "http://ec2-52-42-56-110.us-west-2.compute.amazonaws.com:3000/getcity?q=Biceps";
+    var plan = "<li>Biceps:<ul>";
+  $.getJSON(url,function(data) {
+    $.each(data, function(i,item) {
+      plan += "<li>" + data[i].name+ "  Sets: 3   Reps: 8</li>"
+    });
+    plan += "</ul></ul>";
+    
+  });
+
+$("#planSpan").html(plan);
+  }
+
+   
+});
+
+</script>
+
+</body>
+<link rel="stylesheet" type="text/css" href="workoutsStyle.css" />
+</html>
+

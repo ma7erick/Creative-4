@@ -1,0 +1,99 @@
+{
+  "WorkoutGuide": {
+
+    "workouts": [
+      {
+        "name": "Dumbell Bench Press",
+        "muscle": "Chest",
+        "otherMuscles": "Shoulders, Triceps",
+        "image": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/1/Male/l/1_1.jpg",
+        "description": "Lie down on a flat bench with a dumbbell in each hand resting on top of your thighs. The palms of your hands will be facing each other. Then, using your thighs to help raise the dumbbells up, lift the dumbbells one at a time so that you can hold them in front of you at shoulder width. Once at shoulder width, rotate your wrists forward so that the palms of your hands are facing away from you. The dumbbells should be just to the sides of your chest, with your upper arm and forearm creating a 90 degree angle. Be sure to maintain full control of the dumbbells at all times. This will be your starting position.Then, as you breathe out, use your chest to push the dumbbells up. Lock your arms at the top of the lift and squeeze your chest, hold for a second and then begin coming down slowly. Tip: Ideally, lowering the weight should take about twice as long as raising it.Repeat the movement for the prescribed amount of repetitions of your training program."
+        
+      },
+      {
+         "name": "Bent Over Barbell Row",
+        "muscle": "Back",
+        "otherMuscles": "Biceps, Lats, Shoulders",
+        "image": "http://www.bodybuilding.com/exercises/exerciseImages/sequences/20/Male/l/20_2.jpg",
+        "description": "Holding a barbell with a pronated grip (palms facing down), bend your knees slightly and bring your torso forward, by bending at the waist, while keeping the back straight until it is almost parallel to the floor. Tip: Make sure that you keep the head up. The barbell should hang directly in front of you as your arms hang perpendicular to the floor and your torso. This is your starting position. Now, while keeping the torso stationary, breathe out and lift the barbell to you. Keep the elbows close to the body and only use the forearms to hold the weight. At the top contracted position, squeeze the back muscles and hold for a brief pause. Then inhale and slowly lower the barbell back to the starting position. Repeat for the recommended amount of repetitions."
+      },
+      {
+        "name": "Seated Barbell Military Press",
+        "muscle": "Shoulders",
+        "otherMuscles": "Triceps",
+        "image": "http://www.fitnessandpower.com/wp-content/uploads/2012/11/barbell-shoulder-press.jpg",
+        "description": "Sit on a Military Press Bench with a bar behind your head and either have a spotter give you the bar (better on the rotator cuff this way) or pick it up yourself carefully with a pronated grip (palms facing forward). Tip: Your grip should be wider than shoulder width and it should create a 90-degree angle between the forearm and the upper arm as the barbell goes down. Once you pick up the barbell with the correct grip length, lift the bar up over your head by locking your arms. Hold at about shoulder level and slightly in front of your head. This is your starting position. Lower the bar down to the collarbone slowly as you inhale. Lift the bar back up to the starting position as you exhale. Repeat for the recommended, amount of repetitions."
+      },
+      {
+        "name": "EZ-Bar Skullcrusher",
+        "muscle": "Triceps",
+        "otherMuscles": "Forearms",
+        "image": "http://www.bodybuilding.com/images/2016/march/7-best-triceps-exercises-youre-not-doing-graphics-decline-bench-skullcrusher.jpg",
+        "description": "Using a close grip, lift the EZ bar and hold it with your elbows in as you lie on the bench. Your arms should be perpendicular to the floor. This will be your starting position. Keeping the upper arms stationary, lower the bar by allowing the elbows to flex. Inhale as you perform this portion of the movement. Pause once the bar is directly above the forehead. Lift the bar back to the starting position by extending the elbow and exhaling. Repeat."
+      },
+      {
+        "name": "Barbell Incline Bench Press",
+        "muscle": "Chest",
+        "otherMuscles": "Shoulders, Triceps",
+        "image": "https://cdn2.omidoo.com/sites/default/files/imagecache/full_width/images/bydate/20121210/shutterstock68880256.jpg",
+        "description": "Load the bar to an appropriate weight for your training. Lay on the bench with your feet flat on the ground, driving through to your hips. Your back should be arched, and your shoulder blades retracted. Take a medium, pronated grip covering the rings on the bar. Remove the bar from the rack, holding the weight above your chest with your arms extended. This will be your starting position. Lower the bar to the sternum by flexing the elbows. Maintain control and do not bounce the bar off of your chest. Your lats should stay tight and elbows slightly drawn in. After touching your torso with the bar, extend the elbows to return the bar to the starting position."
+      },
+      {
+        "name": "Dips",
+        "muscle": "Chest",
+        "otherMuscles": "Shoulders, Triceps",
+        "image": "http://cdn-maf2.heartyhosting.com/sites/muscleandfitness.com/files/styles/full_node_image_1090x614/public/media/arnold-weighted-dip.jpg?itok=Xnqle_St",
+        "description": "For this exercise you will need access to parallel bars. To get yourself into the starting position, hold your body at arms length (arms locked) above the bars. While breathing in, lower yourself slowly with your torso leaning forward around 30 degrees or so and your elbows flared out slightly until you feel a slight stretch in the chest. Once you feel the stretch, use your chest to bring your body back to the starting position as you breathe out. Tip: Remember to squeeze the chest at the top of the movement for a second. Repeat the movement for the prescribed amount of repetitions."
+      },
+      {
+        "name": "Dubmell Flyes",
+        "muscle": "Chest",
+        "otherMuscles": "None",
+        "image": "https://cdn.muscleandstrength.com/sites/default/files/arnold_schwarzenegger_chest_flys.jpg",
+        "description": "Lie down on a flat bench with a dumbbell on each hand resting on top of your thighs. The palms of your hand will be facing each other. Then using your thighs to help raise the dumbbells, lift the dumbbells one at a time so you can hold them in front of you at shoulder width with the palms of your hands facing each other. Raise the dumbbells up like you're pressing them, but stop and hold just before you lock out. This will be your starting position. With a slight bend on your elbows in order to prevent stress at the biceps tendon, lower your arms out at both sides in a wide arc until you feel a stretch on your chest. Breathe in as you perform this portion of the movement. Tip: Keep in mind that throughout the movement, the arms should remain stationary; the movement should only occur at the shoulder joint. Return your arms back to the starting position as you squeeze your chest muscles and breathe out. Tip: Make sure to use the same arc of motion used to lower the weights. Hold for a second at the contracted position and repeat the movement for the prescribed amount of repetitions."
+      },
+      {
+        "name": "Standing Dumbbell Triceps Extension",
+        "muscle": "Triceps",
+        "otherMuscles": "None",
+        "image": "https://s-media-cache-ak0.pinimg.com/564x/b4/5f/14/b45f14ab08a949823a7315b9eae0e98c.jpg",
+        "description": "To begin, stand up with a dumbbell held by both hands. Your feet should be about shoulder width apart from each other. Slowly use both hands to grab the dumbbell and lift it over your head until both arms are fully extended. The resistance should be resting in the palms of your hands with your thumbs around it. The palm of the hands should be facing up towards the ceiling. This will be your starting position. Keeping your upper arms close to your head with elbows in and perpendicular to the floor, lower the resistance in a semicircular motion behind your head until your forearms touch your biceps. Tip: The upper arms should remain stationary and only the forearms should move. Breathe in as you perform this step. Go back to the starting position by using the triceps to raise the dumbbell. Breathe out as you perform this step. Repeat for the recommended amount of repetitions."
+      },
+      {
+        "name": "Triceps Pushdown",
+        "muscle": "Triceps",
+        "otherMuscles": "None",
+        "image": "http://www.stanga.lt/wp-content/uploads/2014/01/arnold-schwarzenegger-triceps-push-down.jpg",
+        "description": "Attach a straight or angled bar to a high pulley and grab with an overhand grip (palms facing down) at shoulder width. Standing upright with the torso straight and a very small inclination forward, bring the upper arms close to your body and perpendicular to the floor. The forearms should be pointing up towards the pulley as they hold the bar. This is your starting position. Using the triceps, bring the bar down until it touches the front of your thighs and the arms are fully extended perpendicular to the floor. The upper arms should always remain stationary next to your torso and only the forearms should move. Exhale as you perform this movement. After a second hold at the contracted position, bring the bar slowly up to the starting point. Breathe in as you perform this step. Repeat for the recommended amount of repetitions."
+      },
+      {
+        "name": "T-Bar Row",
+        "muscle": "Middle Back",
+        "otherMuscles": "Biceps, Lats",
+        "image": "http://innateexperience.net/wp-content/uploads/2014/10/t-bar.jpg",
+        "description": "Position a bar into a landmine or in a corner to keep it from moving. Load an appropriate weight onto your end. Stand over the bar, and position a Double D row handle around the bar next to the collar. Using your hips and legs, rise to a standing position. Assume a wide stance with your hips back and your chest up. Your arms should be extended. This will be your starting position. Pull the weight to your upper abdomen by retracting the shoulder blades and flexing the elbows. Do not jerk the weight or cheat during the movement. After a brief pause, return to the starting position."
+      },
+      {
+        "name": "Wide-Grip Lat Pulldown",
+        "muscle": "Lats",
+        "otherMuscles": "Biceps, Middle Back",
+        "image": "https://i.ytimg.com/vi/wirdeFKnMo8/maxresdefault.jpg",
+        "description": "Sit down on a pull-down machine with a wide bar attached to the top pulley. Make sure that you adjust the knee pad of the machine to fit your height. These pads will prevent your body from being raised by the resistance attached to the bar. Grab the bar with the palms facing forward using the prescribed grip. Note on grips: For a wide grip, your hands need to be spaced out at a distance wider than shoulder width. For a medium grip, your hands need to be spaced out at a distance equal to your shoulder width and for a close grip at a distance smaller than your shoulder width. As you have both arms extended in front of you holding the bar at the chosen grip width, bring your torso back around 30 degrees or so while creating a curvature on your lower back and sticking your chest out. This is your starting position. As you breathe out, bring the bar down until it touches your upper chest by drawing the shoulders and the upper arms down and back. Tip: Concentrate on squeezing the back muscles once you reach the full contracted position. The upper torso should remain stationary and only the arms should move. The forearms should do no other work except for holding the bar; therefore do not try to pull down the bar using the forearms.After a second at the contracted position squeezing your shoulder blades together, slowly raise the bar back to the starting position when your arms are fully extended and the lats are fully stretched. Inhale during this portion of the movement. Repeat this motion for the prescribed amount of repetitions."
+      },
+      {
+        "name": "Dumbell Bicep Curl",
+        "muscle": "Biceps",
+        "otherMuscles": "Forearms",
+        "image": "http://cdn-flex0.heartyhosting.com/sites/flexonline.com/files/styles/node_image/public/FL03047_2014-1.jpg?itok=K8NeGvBe",
+        "description": "Stand up straight with a dumbbell in each hand at arm's length. Keep your elbows close to your torso and rotate the palms of your hands until they are facing forward. This will be your starting position. Now, keeping the upper arms stationary, exhale and curl the weights while contracting your biceps. Continue to raise the weights until your biceps are fully contracted and the dumbbells are at shoulder level. Hold the contracted position for a brief pause as you squeeze your biceps. Then, inhale and slowly begin to lower the dumbbells back to the starting position. Repeat for the recommended amount of repetitions."
+      },
+      {
+        "name": "Name",
+        "muscle": "Shoulders",
+        "otherMuscles": "Triceps",
+        "image": "asds",
+        "description": "Description"
+      }
+    ]
+  }
+}
